@@ -1,4 +1,7 @@
-import logo from './logo.svg';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -22,4 +25,20 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
+
+const myfirstelement = <h1>Hello Root1!</h1>
+const mysecondelement = <h1>Hello Root2!</h1>
+
+ReactDOM.render(myfirstelement, document.getElementById('root'));
+ReactDOM.render(mysecondelement, document.getElementById('root2'));
+
+/*function App() {
+  return (
+    <div className="App">
+      <h1>Hello World!</h1>
+    </div>
+  );
+}*/
+
+//export default App;
