@@ -38,6 +38,11 @@ class About extends React.Component {
     );
     const three = (
       <p>
+        When I'm free, I like to play pokemon, drink tea and cry. Yes, all at the same time.
+      </p>
+    );
+    const four = (
+      <p>
         <b>Want to chat?</b> Shoot me a message at{" "}
         <a href="mailto:t.gomezmena@student.tudelft.nl">
           t.gomezmena@student.tudelft.nl
@@ -45,7 +50,7 @@ class About extends React.Component {
         and let's talk.
       </p>
     );
-    const desc_items = [one, two];
+    const desc_items = [one, two, three];
 
     const tech_stack = [
       "Javascript ES6+",
@@ -70,7 +75,7 @@ class About extends React.Component {
           <div className="about-content">
             <div className="about-description">
               {desc_items}
-              {"Here are some technologies I have been working with:"}
+              {"\nHere are some technologies I have been working with:"}
               <ul className="tech-stack">
                 {tech_stack.map(function (tech_item, i) {
                   return (
@@ -80,6 +85,7 @@ class About extends React.Component {
                   );
                 })}
               </ul>
+              {four}
             </div>
             <div className="about-image">
               <img src={image} />
