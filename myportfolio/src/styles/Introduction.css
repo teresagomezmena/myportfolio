@@ -4,7 +4,7 @@
     align-items: flex-start;
     padding-left: 15%;
     padding-top: 5%;
-    min-height: 100vh;
+    min-height: 50vh;
   }
   
   canvas {
@@ -12,23 +12,24 @@
   }
   
   .Typist {
-    color: var(--lightest-slate);
+    color: var(--section-title);
     text-align: center;
     font-size: 76px;
     margin-top: -30px;
   }
   .Typist .Cursor--blinking {
-    color: var(--green-bright);
+    color: var(--highlight);
     padding-left: 4px;
   }
   
   .intro-title {
     font-family: "NTR", sans-serif;
+    color: var(--section-title);
     font-size: 86px;
   }
   .intro-name {
     font-family: "NTR", sans-serif;
-    color: var(--green-bright);
+    color: var(--highlight);
     font-weight: bold;
     font-size: 86px;
   }
@@ -36,13 +37,13 @@
   .intro-subtitle {
     margin-top: -36px;
     font-family: "NTR", sans-serif;
-    color: var(--slate);
+    color: var(--subtitle);
     font-weight: 300;
     font-size: 55px;
   }
   
   .intro-desc {
-    color: var(--slate);
+    color: var(--subtitle);
     font-family: "NTR", sans-serif;
     font-size: 20px;
     max-width: 55%;
@@ -54,16 +55,20 @@
     font-family: "NTR", sans-serif;
     padding: 10px 20px;
     cursor: pointer;
-    border: 1px solid var(--green-bright);
+    border: 1px solid var(--highlight);
     border-radius: 4px;
   }
   
   .intro-contact:hover {
-    background-color: var(--lightest-navy);
+    background-color: var(--section-title);
   }
   
   b {
     font-size: 17px;
+  }
+
+  .intro-ignore {
+    color: var(--background);
   }
   
   @media only screen and (max-width: 600px) {
@@ -104,4 +109,5 @@
       align-self: center;
       margin-left: 30%;
     }
+
   }

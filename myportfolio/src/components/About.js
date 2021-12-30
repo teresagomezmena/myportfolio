@@ -1,5 +1,5 @@
 import React from "react";
-//import "../styles/About.css";
+import "../styles/About.css";
 import FadeInSection from "./FadeInSection";
 
 // The 'About' section will be at the start of my webpage, is a short summary of me.
@@ -39,8 +39,8 @@ class About extends React.Component {
     const three = (
       <p>
         <b>Want to chat?</b> Shoot me a message at{" "}
-        <a href="mailto:gazi.jarin@mail.utoronto.ca">
-          gazi.jarin@mail.utoronto.ca
+        <a href="mailto:t.gomezmena@student.tudelft.nl">
+          t.gomezmena@student.tudelft.nl
         </a>{" "}
         and let's talk.
       </p>
@@ -65,7 +65,7 @@ class About extends React.Component {
       <div id="about">
         <FadeInSection>
           <div className="section-header ">
-            <span className="section-title">/ about me</span>
+            <span className="section-title">#me, myself and i</span>
           </div>
           <div className="about-content">
             <div className="about-description">

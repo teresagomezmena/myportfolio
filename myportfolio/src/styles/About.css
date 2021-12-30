@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "NTR";
-    font-weight: 200;
-    font-display: fallback;
-    src: url("/fonts/NTR-Regular.ttf") format("truetype");
-  }
-  
+  font-family: "NTR";
+  font-weight: 200;
+  font-display: fallback;
+  src: url("C:\Users\tgome\Desktop\CSE2\myportfolio\myportfolio\public\fonts\NTR-Regular.ttf") format("truetype");
+}
+
   #about {
     padding-left: 15%;
     padding-top: 5%;
@@ -22,12 +22,12 @@
     position: relative;
     padding-left: 20px;
     font-size: 18px;
-    color: var(--slate);
+    color: var(--subtitle);
   }
   
   .about-description li::before {
     content: "▹    ";
-    color: var(--green-bright);
+    color: var(--highlight);
     position: absolute;
     left: 0;
   }
@@ -39,7 +39,7 @@
   
   .about-description {
     font-family: "NTR", sans-serif;
-    color: var(--slate);
+    color: var(--subtitle);
     max-width: 700px;
     font-size: 20px;
     margin: 0;
@@ -60,7 +60,7 @@
     height: auto;
     border-radius: 10px;
     box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
-    border: 2px solid var(--green-bright);
+    border: 2px solid var(--highlight);
   }
   
   @media only screen and (max-width: 788px) {
