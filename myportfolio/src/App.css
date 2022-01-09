@@ -74,7 +74,7 @@ html {
   width: 300px;
   margin-top: 39px;
   height: 1px;
-  margin-left: 20px;
+  margin-left: 40px;
   background-color: var(--selection);
 }
 
@@ -107,4 +107,6 @@ html {
   .section-title {
     font-size: 32px;
   }
+
+
 }

@@ -82,24 +82,46 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    Team_Epoch: {
-      jobTitle: "Software Engineer @",
+    Epoch: {
+      jobTitle: "Software (Machine Learning) Engineer @",
       duration: "AUG 2021 - MARCH 2022",
       desc: [
-        ".",
-        ".",
-        ".",
-        "."
+        "Main goal: win Artificial Intelligence competitions, hosted in online global platforms.",
+        "I have worked in every step  of the process: data preprocessing, creation of the model and optimization",
+        "Some of the technologies we have used: resnet, CNNs, Random Forest, Optical Flow, fast.ai, etc.",
+        "I work in a group of four computer scientist, using sprints and weekly meetings."
       ]
     },
-    lol: {
-        jobTitle: "lol",
-        duration: "AUG 2021 - MARCH 2022",
+    Imperial_College: {
+        jobTitle: "Imperial College London_Global Summer School @",
+        duration: "AUG 2019",
         desc: [
-          ".",
-          ".",
-          ".",
-          "."
+          "Programme: Introduction to oscillations and Python plotting, various workshops and a team competition about the development of new products using wearable tech.",
+          "Skills acquired: Critical thinking, problem solving, teamwork, presentation skills, multicultural awareness and further Python knowledge."
+        ]
+      },
+      Polictecnico_Milano: {
+        jobTitle: "Coding TechCamp @",
+        duration: "JUNE 2019",
+        desc: [
+          "Programme: Following the Python lessons held by computer science university teachers. The main objective was to code a basic working game.",
+          "Skills acquired: Python knowledge, presentation skills, teamwork skills, problem solving, time management and leadership."
+         ]
+      },
+      Techinnova_SRL: {
+        jobTitle: "Apprenticeship @",
+        duration: "JUN 2019",
+        desc: [
+          "Techinnova S.r.l. is an Italian Start-up Incubator and 3D Printer Laboratory.",
+          "Skills acquired: independent work for long periods of time, business techniques, 3D printer knowledge and deep understanding on start-up’s world."
+        ]
+      },
+      Sintetika_Sinks: {
+        jobTitle: "Apprenticeship @",
+        duration: "JUN 2018 - JULY 2018",
+        desc: [
+          "Sintetika Sinks S.L. is a spanish thermosetting plastics' transformer.",
+          "Skills acquired: Independent work for long periods of time, business techniques, digital marketing implementation and web design."
         ]
       },
   };

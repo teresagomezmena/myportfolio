@@ -33,18 +33,17 @@ class Intro extends React.Component {
       </Typist>
         <FadeInSection>
           <div className="intro-subtitle"> 
-          I'm trying to learn something new.
+          Welcome to my portfolio.
           </div>
           <div className="intro-desc">
-            I'm a computer scientist based in the Netherlands. I realized my university doesn't 
-            treat front-end in almost any of the courses, so I decided to learn it by myself.
+            I'm a computer scientist based in the Netherlands. As my university does not treat front-end in almost any of the courses, 
+            I decided to learn it by myself by coding my own personal website.
           </div>
           <a
             href="mailto:t.gomezmena@student.tudelft.nl"
             className="intro-contact"
           >
-          
-          {"Say hi!"}
+          {"contact me!"}
           </a>
         </FadeInSection>
       </div>

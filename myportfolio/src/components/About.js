@@ -22,23 +22,25 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently studying <b>Computer Science</b> at{" "}
-        <b> the Technical University of TU Delft </b>. I work as a Software Engineer
-        for one of the Dream Teams, <a href="https://www.teamepoch.net/">Team Epoch</a>, of the university: 
-        participating in  <b> Artificial Intelligence competitions </b>, hosted in platforms such as 
-        Kaggle, Driven Data, Awcrowd or Zindi.
+        My name is Teresa Gomez Mena: 19 years old, born in Spain, spent my highschool experience
+        in Italy. I am currently studying <b>Computer Science</b> at{" "}
+        <b> the Technical University of TU Delft</b>, in the Netherlands.
+        While studying, I work part-time as a Software Engineer for a university student
+        Dream Team, named <a href="https://www.teamepoch.net/">Team Epoch</a>. Here, we
+        aim to participate and win  <b> Artificial Intelligence competitions </b>, hosted in global platforms such as 
+        Kaggle, Driven Data, Aicrowd or Zindi.
       </p>
     );
     const two = (
       <p>
         I'm into any sort of <b>software development</b> that requires
-        creativity and style. My main areas of interest include <b>machine learning</b>,{" "}
-        and <b>frontend development</b>. 
+        creativity and style. In fact, my main areas of interest include <b>game</b> and 
+        <b> front-end</b> development, and anything that has to do with <b>graphics</b>.
       </p>
     );
     const three = (
       <p>
-        When I'm free, I like to play pokemon, drink tea and cry. Yes, all at the same time.
+        In my free time I like to play pokemon, drink tea and try to play the ukelele.
       </p>
     );
     const four = (
@@ -59,8 +61,10 @@ class About extends React.Component {
       "Java",
       "Node.js",
       "HTML",
+      "OpenGL",
       "C++",
-      "CSS"
+      "CSS", 
+      "SQL"
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);
@@ -75,7 +79,7 @@ class About extends React.Component {
           <div className="about-content">
             <div className="about-description">
               {desc_items}
-              {"\nHere are some technologies I have been working with:"}
+              {"\n \nHere are some languages and technologies I have been working with:"}
               <ul className="tech-stack">
                 {tech_stack.map(function (tech_item, i) {
                   return (
