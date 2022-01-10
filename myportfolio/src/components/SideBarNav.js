@@ -27,36 +27,10 @@ class SidebarNav extends React.Component {
   }
   render() {
     const { expanded } = this.state;
-
-    const links = [
-      <a href="/">/home</a>,
-      <a href="#about">/about</a>,
-      <a href="#experience">/experience</a>,
-      <a href="#projects">/project</a>,
-    ];
-
     return (
       <div className="sidebar-nav">
-        {!isMobile && (
-          <Sidenav
-            expanded={expanded}
-            defaultOpenKeys={["3", "4"]}
-            activeKey={this.state.activeKey}
-            onSelect={this.handleSelect}
-            appearance={"subtle"}
-          >
-            <Sidenav.Body>
-              <div className="sidebar-links">
-                {links.map((link, i) => (
-                  <FadeInSection delay={`${i + 1}00ms`}>
-                    <div>{link}</div>
-                  </FadeInSection>
-                ))}
-              </div>
-            </Sidenav.Body>
-          </Sidenav>
-        )}
         <div className="sidebar-logos" href="/">
+          
           <a href="mailto:t.gomezmena@student.tudelft.nl">
             <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
           </a>
