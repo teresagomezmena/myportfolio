@@ -2,8 +2,31 @@
     padding-left: 15%;
     padding-top: 5%;
     padding-bottom: 5%;
+    height: auto;
+    min-height: 100% !important;
+  }
+
+  canvas {
+    width: 200px !important;
   }
   
+  .Typist {
+    color: var(--section-title);
+    text-align: center;
+    font-size: 76px;
+    margin-top: -30px;
+  }
+  .Typist .Cursor--blinking {
+    color: var(--highlight);
+    padding-left: 4px;
+  }
+
+  .section-header {
+    font-family: "NTR", sans-serif;
+    color: var(--section-title);
+    font-size: 70px;
+  }
+ 
   .joblist-job-title {
     font-family: "NTR", sans-serif;
     font-size: 28px;

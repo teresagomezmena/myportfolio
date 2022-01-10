@@ -9,6 +9,8 @@
   padding-right: 90%;
   padding-top: 5%;
   background-color: transparent;
+  height: auto;
+  min-height: 100% !important;
 }
 
 .tab-list-item {

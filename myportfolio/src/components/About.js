@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/About.css";
 import FadeInSection from "./FadeInSection";
 
+
 // The 'About' section will be at the start of my webpage, is a short summary of me.
 class About extends React.Component {
   constructor() {

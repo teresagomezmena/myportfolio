@@ -39,10 +39,11 @@ class Projects extends React.Component {
 
     return (
       <div id="projects">
-        <div className="section-header ">
-          <span className="section-title"># nice projects i have worked on</span>
-        </div>
-
+        <FadeInSection>
+         <span className="section-header ">
+            {"nice projects i have worked on"}
+          </span>
+        </FadeInSection>
         <div className="project-container">
           <ul className="projects-grid">
             {Object.keys(projects).map((key, i) => (

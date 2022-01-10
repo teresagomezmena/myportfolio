@@ -2,6 +2,8 @@ import React from "react";
 import JobList from "./JobList";
 import "../styles/Experience.css";
 import FadeInSection from "./FadeInSection";
+import Typist from "react-typist";
+import "react-typist/dist/Typist.css";
 
 class Experience extends React.Component {
   constructor() {
@@ -21,9 +23,9 @@ class Experience extends React.Component {
     return (
       <div id="experience">
         <FadeInSection>
-          <div className="section-header ">
-            <span className="section-title"># what did i do all this time</span>
-          </div>
+          <span className="section-header ">
+            {"what did i do all this time"}
+          </span>
           <JobList></JobList>
         </FadeInSection>
       </div>
