@@ -26,21 +26,18 @@ html {
 
 .App {
   background-color: var(--background);
-  display: flex;
   flex-direction: row;
   /* padding: 36px 76px; */
+  display:inline-block;
+  width: auto;
+  overflow-x: auto;
+  overflow-y: auto;
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-#content {
-  /* padding: 80px 200px; */
-  width: 100vw;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
 .rs-steps-horizontal .rs-steps-item-content {
   text-align: left;
 }
@@ -57,13 +54,13 @@ html {
 
 .App-header {
   min-height: 100vh;
-  display: flex;
+  display: inline-block;;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
 }
 
 .section-header {
-  display: flex;
+  display: inline-block;;
   padding-bottom: 42px;
   width: 100vw;
 }

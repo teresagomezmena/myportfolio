@@ -13,28 +13,19 @@ import Tabs from "./components/Tabs";
 function App() {
   return (
     <div className="App">
-
         <Tabs>
         <div label="About">
           <Intro></Intro>
           <About></About>
-          <Credits></Credits>
         </div>
         <div label="Experience">
           <Experience></Experience>
-          <Credits></Credits>
         </div>
         <div label="Projects">
           <Projects></Projects>
-          <Credits></Credits>
         </div>
       </Tabs>
-
-      <div id="content">
-        <Intro></Intro>
-        <About></About>
-        <Credits></Credits>
-      </div>
+      <Credits></Credits>
       <SidebarNav />
     </div>
   );
