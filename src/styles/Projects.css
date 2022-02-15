@@ -2,6 +2,9 @@
     padding-left: 15%;
     padding-top: 5%;
     padding-right: 20%;
+    height: auto;
+    min-height: 50vh;
+    color: var(--background);
   }
   
   .projects-grid {
@@ -84,7 +87,7 @@
   
   @media only screen and (max-width: 600px) {
     #projects {
-      height: unset;
+      height: 100%;
       padding-top: 30%;
       padding-left: unset;
       padding-right: unset;
