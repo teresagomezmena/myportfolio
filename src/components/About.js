@@ -24,19 +24,18 @@ class About extends React.Component {
     const one = (
       <p>
         My name is Teresa Gomez Mena: 19 years old, born in Spain, spent my highschool experience
-        in Italy. I am currently studying <b>Computer Science</b> at{" "}
-        <b> the Technical University of TU Delft</b>, in the Netherlands.
-        While studying, I work part-time as a Software Engineer for a university student
+        in Italy. I am currently completing a bachelor in <b>Computer Science</b> at{" "}
+        <b> the Technical University of TU Delft</b>.
+        While studying, I work part-time as a Software / Front-End Engineer and Scrum Master for a university student
         Dream Team, named <a href="https://www.teamepoch.net/">Team Epoch</a>. Here, we
-        aim to participate and win  <b> Artificial Intelligence competitions </b>, hosted in global platforms such as 
-        Kaggle, Driven Data, Aicrowd, Zindi, etc. I participated in competitions, as well as Scrum Master and Front-End Developer.
+        aim to participate and win  <b> artificial intelligence competitions</b>.
       </p>
     );
     const two = (
       <p>
         I'm into any sort of <b>software development</b> that requires
-        creativity and style. In fact, my main areas of interest include <b>game</b> and 
-        <b> front-end</b> development, and anything that has to do with <b>design</b>.
+        creativity and style. In fact, my main areas of interest include 
+        <b> front-end</b> development and anything that has to do with <b>design</b>.
       </p>
     );
     const three = (
@@ -47,7 +46,7 @@ class About extends React.Component {
     const four = (
       <p>
         <b>Want to chat?</b> Shoot me a message at{" "}
-        <a href="mailto:t.gomezmena@student.tudelft.nl">
+        <a href="mailto:t.gomezmena@student.tudelft.nl" className="email">
           t.gomezmena@student.tudelft.nl
         </a>{" "}
         and let's talk.
@@ -80,7 +79,7 @@ class About extends React.Component {
           <div className="about-content">
             <div className="about-description">
               {desc_items}
-              {"\n \nHere are some languages and technologies I have been working with:"}
+              {"\n \nHere are some technologies I have been working with:"}
               <ul className="tech-stack">
                 {tech_stack.map(function (tech_item, i) {
                   return (

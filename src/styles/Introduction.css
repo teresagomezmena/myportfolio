@@ -45,8 +45,10 @@
     color: var(--subtitle);
     font-family: "NTR", sans-serif;
     font-size: 20px;
-    max-width: 55%;
+    max-width: 75%;
     padding-bottom: 50px;
+    text-align: justify;
+
   }
   
   .intro-contact {
@@ -59,7 +61,7 @@
   }
   
   .intro-contact:hover {
-    background-color: var(--section-title);
+    color: white;
   }
   
   b {

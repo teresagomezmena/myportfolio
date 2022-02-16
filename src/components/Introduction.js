@@ -3,7 +3,6 @@ import React from "react";
 import "../styles/Introduction.css";
 import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
-//import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import FadeInSection from "./FadeInSection";
 
 class Intro extends React.Component {
@@ -33,11 +32,11 @@ class Intro extends React.Component {
       </Typist>
         <FadeInSection>
           <div className="intro-subtitle"> 
-          Welcome to my portfolio.
+          welcome to my portfolio.
           </div>
           <div className="intro-desc">
-            I'm a computer scientist based in the Netherlands. As my university does not treat front-end in almost any of the courses, 
-            I decided to learn it by myself by coding my own personal website.
+            I'm a computer scientist based in the Netherlands. I'm trying to self-learn some front-end development skills 
+            by coding my own personal portfolio. This website has been created using React.js technology.
           </div>
           <a
             href="mailto:t.gomezmena@student.tudelft.nl"

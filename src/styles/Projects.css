@@ -2,15 +2,13 @@
     padding-left: 15%;
     padding-top: 5%;
     padding-right: 20%;
-    height: auto;
-    min-height: 50vh;
     color: var(--background);
   }
   
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
-    grid-gap: 10px;
+    grid-gap: 12px;
   }
   @media (max-width: 1080px) {
     .projects-grid {
@@ -18,10 +16,10 @@
     }
   }
 
-  .section-header {
+  .header {
     font-family: "NTR", sans-serif;
     color: var(--section-title);
-    font-size: 70px;
+    font-size: 75px;
   }
   
   .projects-card {

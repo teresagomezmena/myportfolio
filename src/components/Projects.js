@@ -4,6 +4,8 @@ import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
 import FadeInSection from "./FadeInSection";
+import Typist from "react-typist";
+import "react-typist/dist/Typist.css";
 
 class Projects extends React.Component {
   constructor() {
@@ -37,15 +39,15 @@ class Projects extends React.Component {
       },
       "Knowledge WebPage": {
         desc: 
-          "A two-player online game created with Node.js. ",
-        techStack: "Node.js, Javascript, HTML, CSS",
+          "Webpage to keep track of Team Epoch's blogs and news. ",
+        techStack: "React.js, Javascript, HTML, CSS",
         link: ".",
         open: "."
       },
       "Community Platform": {
         desc:
-          "A two-player online game created with Node.js. ",
-        techStack: "Node.js, Javascript, HTML, CSS",
+          "Platform that aims to connect students. To be finished. ",
+        techStack: "To be determined",
         link: ".",
         open: "."
       }
@@ -53,10 +55,15 @@ class Projects extends React.Component {
 
     return (
       <div id="projects">
-        <FadeInSection>
-         <span className="section-header ">
-            {"nice projects i have worked on"}
+        <Typist avgTypingDelay={120}>
+         <span className="header">
+            {"#nice projects i have worked on"}
           </span>
+        </Typist>
+        <FadeInSection>
+          <div className="intro-desc">
+              Here are other things I have worked on that helped me broaden my knowledge. Feel free to click on the icons to get to more information!
+            </div>
         </FadeInSection>
         <div className="project-container">
           <ul className="projects-grid">

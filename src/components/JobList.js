@@ -87,8 +87,7 @@ const JobList = () => {
       duration: "AUG 2021 - MARCH 2022",
       desc: [
         "Main goal: win Artificial Intelligence competitions, hosted in online global platforms.",
-        "I have worked in every step  of the process: data preprocessing, creation of the model and optimization",
-        "Some of the technologies we have used: resnet, CNNs, Random Forest, Optical Flow, fast.ai, etc.",
+        "I have worked in every step  of the process: data preprocessing, creation of the model and optimization. As well as some front end development and Scrum Master.",
         "I work in a group of four computer scientist, using sprints and weekly meetings."
       ]
     },

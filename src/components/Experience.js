@@ -10,7 +10,8 @@ class Experience extends React.Component {
     super();
     this.state = {
       expanded: true,
-      activeKey: "1"
+      activeKey: "1",
+      visible: true
     };
     this.handleSelect = this.handleSelect.bind(this);
   }
@@ -22,10 +23,16 @@ class Experience extends React.Component {
   render() {
     return (
       <div id="experience">
-        <FadeInSection>
-          <span className="section-header ">
-            {"what did i do all this time"}
+        <Typist avgTypingDelay={120}>
+          <span className="experience-title">
+          {"#what did i do all this time"}
           </span>
+      </Typist>
+        <FadeInSection>
+          <div className="intro-desc">
+            Throughout the past years I have been trying to learn in as many ways as possible. Here is a list of
+            the experiences from which I learnt the most:
+          </div>
           <JobList></JobList>
         </FadeInSection>
       </div>
