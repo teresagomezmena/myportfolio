@@ -76,7 +76,7 @@
       min-height: unset;
       padding-left: unset;
       margin: 0;
-      align-items: center;
+      align-items: flex-start;
     }
   
     .intro-title {
