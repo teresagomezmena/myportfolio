@@ -29,19 +29,19 @@ class About extends React.Component {
         While studying, I work part-time as a Software Engineer for a university student
         Dream Team, named <a href="https://www.teamepoch.net/">Team Epoch</a>. Here, we
         aim to participate and win  <b> Artificial Intelligence competitions </b>, hosted in global platforms such as 
-        Kaggle, Driven Data, Aicrowd or Zindi.
+        Kaggle, Driven Data, Aicrowd, Zindi, etc. I participated in competitions, as well as Scrum Master and Front-End Developer.
       </p>
     );
     const two = (
       <p>
         I'm into any sort of <b>software development</b> that requires
         creativity and style. In fact, my main areas of interest include <b>game</b> and 
-        <b> front-end</b> development, and anything that has to do with <b>graphics</b>.
+        <b> front-end</b> development, and anything that has to do with <b>design</b>.
       </p>
     );
     const three = (
       <p>
-        In my free time I like to play pokemon, drink tea and try to play the ukelele.
+        In my free time I like to play pokemon, drink tea and decorate my room.
       </p>
     );
     const four = (
@@ -56,7 +56,7 @@ class About extends React.Component {
     const desc_items = [one, two, three];
 
     const tech_stack = [
-      "Javascript ES6+",
+      "Javascript",
       "Python",
       "React.js",
       "Java",

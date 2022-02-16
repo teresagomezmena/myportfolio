@@ -34,6 +34,20 @@ class Projects extends React.Component {
         techStack: "Node.js, Javascript, HTML, CSS",
         link: ".",
         open: "."
+      },
+      "Knowledge WebPage": {
+        desc: 
+          "A two-player online game created with Node.js. ",
+        techStack: "Node.js, Javascript, HTML, CSS",
+        link: ".",
+        open: "."
+      },
+      "Community Platform": {
+        desc:
+          "A two-player online game created with Node.js. ",
+        techStack: "Node.js, Javascript, HTML, CSS",
+        link: ".",
+        open: "."
       }
     };
 
