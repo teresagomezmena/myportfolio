@@ -5,6 +5,10 @@
   src: url("https://fonts.googleapis.com/css2?family=NTR&display=swap");
 }
 
+  .tech-stack {
+    user-select: none;
+  }
+
   #about {
     padding-left: 15%;
     padding-top: 3%;
