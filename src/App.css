@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "NTR";
+  font-family: 'NTR', sans-serif;
   font-weight: 200;
   font-display: fallback;
-  src: url("C:\Users\tgome\Desktop\CSE2\myportfolio\public\fonts\NTR-Regular.ttf") format("truetype");
+  src: url("https://fonts.googleapis.com/css2?family=NTR&display=swap") format("truetype");
 }
 
 /* Animation */
