@@ -110,6 +110,7 @@
   }
   
   .job-description {
+    user-select: none;
     padding-top: 24px;
     max-width: 650px;
     font-family: "NTR", sans-serif;
