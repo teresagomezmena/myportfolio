@@ -22,13 +22,14 @@ class Projects extends React.Component {
     });
   }
   render() {
+    // TODO Add link and open URLs
     const projects = {
       "Portfolio": {
         desc:
           "A website created using React.js, here I talk about myself.",
         techStack: "React.js, Javascript, HTML, CSS",
         link: "https://github.com/teresagomezmena/myportfolio",
-        open: "."
+        open: "https://teresagomezmena.com/"
       }, 
       "Reversi": {
         desc:
