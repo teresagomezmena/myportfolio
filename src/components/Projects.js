@@ -27,7 +27,7 @@ class Projects extends React.Component {
         desc:
           "A website created using React.js, here I talk about myself.",
         techStack: "React.js, Javascript, HTML, CSS",
-        link: ".",
+        link: "https://github.com/teresagomezmena/myportfolio",
         open: "."
       }, 
       "Reversi": {
@@ -57,7 +57,7 @@ class Projects extends React.Component {
       <div id="projects">
         <Typist avgTypingDelay={120}>
          <span className="header">
-            {"#nice projects i have worked on"}
+            {"#nice projects i worked on"}
           </span>
         </Typist>
         <FadeInSection>

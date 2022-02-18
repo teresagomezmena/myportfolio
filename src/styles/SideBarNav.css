@@ -6,7 +6,7 @@
     right: 0;
     padding-right: 5%;
     bottom: 5%;
-    background-color: transparent;
+    background-color: var(--backgroundLight);
   }
   
   .rs-sidenav-subtle {
