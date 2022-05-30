@@ -33,24 +33,20 @@ class Projects extends React.Component {
       }, 
       "Reversi": {
         desc:
-          "A two-player online game created with Node.js. ",
+          "A two-player online game created with Node.js",
         techStack: "Node.js, Javascript, HTML, CSS",
-        link: ".",
-        open: "."
       },
       "Knowledge WebPage": {
         desc: 
           "Webpage to keep track of Team Epoch's blogs and news. ",
-        techStack: "React.js, Javascript, HTML, CSS",
-        link: ".",
-        open: "."
+        techStack: "React.js, Next.js, TailWind CSS, Javascript, HTML",
+        link: "https://github.com/TeamEpochGithub/blogplatform",
+        open: "https://platform.teamepoch.net/"
       },
-      "Community Platform": {
-        desc:
-          "Platform that aims to connect students. To be finished. ",
-        techStack: "To be determined",
-        link: ".",
-        open: "."
+      "Text Classification - KPN": {
+        desc: 
+          "I worked within a group with the goal of classifying customer reviews and displaying various information in a local webpage.",
+        techStack: "Django, React.js, Apex Charts, HTML, CSS",
       }
     };
 
@@ -58,7 +54,7 @@ class Projects extends React.Component {
       <div id="projects">
         <Typist avgTypingDelay={120}>
          <span className="header">
-            {"#nice projects i worked on"}
+            {"nice projects i worked on"}
           </span>
         </Typist>
         <FadeInSection>
@@ -74,7 +70,7 @@ class Projects extends React.Component {
                   <div className="card-header">
                     <div className="folder-icon">
                       <FolderOpenRoundedIcon
-                        style={{ fontSize: 35 }}
+                        style={{ fontSize: 35, color: "var(--background)" }}
                       ></FolderOpenRoundedIcon>
                     </div>
                     <span className="external-links">
@@ -82,7 +78,7 @@ class Projects extends React.Component {
                         <GitHubIcon
                           style={{
                             fontSize: 20,
-                            color: "var(--lightest-slate)"
+                            color: "var(--background)"
                           }}
                         ></GitHubIcon>
                       </a>
@@ -91,7 +87,7 @@ class Projects extends React.Component {
                           <OpenInBrowserIcon
                             style={{
                               fontSize: 25,
-                              color: "var(--lightest-slate)"
+                              color: "var(--background)"
                             }}
                           ></OpenInBrowserIcon>
                         </a>

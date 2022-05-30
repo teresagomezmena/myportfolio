@@ -25,7 +25,7 @@ class Experience extends React.Component {
       <div id="experience">
         <Typist avgTypingDelay={120}>
           <span className="experience-title">
-          {"#what did i do all this time"}
+          {"what do i know?"}
           </span>
       </Typist>
         <FadeInSection>
