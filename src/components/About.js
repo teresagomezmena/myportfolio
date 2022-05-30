@@ -26,21 +26,21 @@ class About extends React.Component {
         My name is Teresa Gomez Mena: 19 years old, born in Spain, spent my highschool experience
         in Italy. I am currently completing a bachelor in <b>Computer Science</b> at{" "}
         <b> the Technical University of TU Delft</b>.
-        While studying, I work part-time as a Software / Front-End Engineer and Scrum Master for a university student
-        Dream Team, named <a href="https://www.teamepoch.net/">Team Epoch</a>. Here, we
-        aim to participate and win  <b> artificial intelligence competitions</b>.
+        While studying during my second year, I worked part-time as a Software / Front-End Engineer and Scrum Master for a university 
+        student Dream Team, named <a href="https://www.teamepoch.net/">Team Epoch</a>. Here, we
+        aimed to participate and win  <b> artificial intelligence competitions</b>. 
       </p>
     );
     const two = (
       <p>
         I'm into any sort of <b>software development</b> that requires
-        creativity and style. In fact, my main areas of interest include 
-        <b> front-end</b> development and anything that has to do with <b>design</b>.
+        creativity and logic. In fact, my main areas of interest include 
+        <b> front-end</b> development, <b> machine learning</b> and anything that has to do with <b>design</b>.
       </p>
     );
     const three = (
       <p>
-        In my free time I like to play pokemon, drink tea and decorate my room.
+        In my free time I like to play pokemon, drink tea and lift weights at the gym.
       </p>
     );
     const four = (
@@ -57,17 +57,18 @@ class About extends React.Component {
     const tech_stack = [
       "Javascript",
       "Python",
-      "React.js",
       "Java",
-      "Node.js",
       "HTML",
-      "OpenGL",
       "C++",
       "CSS", 
-      "SQL"
+      "SQL",
+      "React.js",
+      "Node.js",
+      "Next.js",
+      "Tailwind CSS",
+      "Django"
     ];
 
-    const tech_items = tech_stack.map(stack => <li>{stack}</li>);
     var image = require("./assets/me.jpg");
 
     return (
@@ -79,7 +80,7 @@ class About extends React.Component {
           <div className="about-content">
             <div className="about-description">
               {desc_items}
-              {"\n \nHere are some technologies I have been working with:"}
+              {"\n \nHere are some programming languages and technologies I have been working with:"}
               <ul className="tech-stack">
                 {tech_stack.map(function (tech_item, i) {
                   return (
