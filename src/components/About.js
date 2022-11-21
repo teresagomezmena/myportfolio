@@ -69,7 +69,7 @@ class About extends React.Component {
       "Django"
     ];
 
-    var image = require("./assets/me.jpg");
+    var image = require("./assets/me2.jpg");
 
     return (
       <div id="about">
