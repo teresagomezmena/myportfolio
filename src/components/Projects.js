@@ -45,7 +45,7 @@ class Projects extends React.Component {
       },
       "Text Classification - KPN": {
         desc: 
-          "I worked within a group with the goal of classifying customer reviews and displaying various information in a local webpage.",
+          "I worked in a group with the goal of classifying customer reviews and displaying various information in a local webpage.",
         techStack: "Django, React.js, Apex Charts, HTML, CSS",
       }
     };
